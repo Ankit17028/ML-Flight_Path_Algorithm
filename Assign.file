@@ -1,0 +1,60 @@
+Problem 1:
+Given 3 different sets of coordinates of airports for ‘N’ different flights started from the same
+point of time and place. Draw the flight path for the individual flights such that there is no
+intersection of flight paths for safety and optimization.
+For example:
+Input :
+Flight 1: 1,1 2,2 3,3
+Flight 2: 1,1 2,4 3,2
+Flight 3: 1,1 4,2 3,4
+Output :
+Draw the path of all flights in which they had travelled.
+
+
+Step-by-Step Approach Followed:
+
+1) Understand the Problem Statement
+    You have coordinates for multiple flights, and you need to plot their paths ensuring they do not intersect.
+    You need to visualize the paths.
+    Define the Input and Output
+
+2) Input: Coordinates for multiple flights.
+    Output: Paths of all flights ensuring they do not intersect.
+    Use Google to Research
+
+3) Search terms:
+    "how to plot multiple paths in Python" - Found relevant information on using matplotlib to plot multiple lines.
+    "avoid path intersection in flight paths visualization" - Found basic principles of checking and adjusting intersections.
+    "Python matplotlib plot multiple lines" - Detailed guides on plotting multiple lines with matplotlib.
+    "algorithm to prevent line intersection" - Found information on geometric algorithms to check for line intersections.
+
+
+4) Plan the Solution
+    Step 1: Parse the input to get coordinates for each flight.
+    Step 2: Plot the paths using a plotting library (e.g., matplotlib in Python).
+    Step 3: Implement an algorithm to check and adjust paths to avoid intersections.
+
+
+
+References:
+    Matplotlib Documentation
+    Geometric Algorithms
+
+
+Implementation Part And Install Basic Libraries:
+
+1) Install Matplotlib:
+Open a terminal or command prompt and run the following command:
+
+Run -> pip install matplotlib
+
+2) Upgrade Pip if Needed:
+
+Run -> pip install --upgrade pip
+
+3) Verify Installation:
+After installation, you can verify that matplotlib is installed correctly by running:
+
+Run -> python -c "import matplotlib.pyplot as plt"
+
+
